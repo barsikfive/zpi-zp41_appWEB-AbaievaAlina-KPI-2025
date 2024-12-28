@@ -75,6 +75,7 @@
                 margin-right: 0;
                 margin-bottom: 0;
                 width: 440px;
+                word-break: keep-all;
 
                 font-family: "Koulen";
                 font-size: 64pt;
@@ -161,15 +162,22 @@
             }
 
             /* Hide part of the logo on smaller screen */
-            @media screen and (max-width: 550px)
+            @media screen and (max-width: 980px)
             {
                 .logo h1 {
-                    display: none;
+                    font-size: 56pt;
                 }
 
                 header nav {
                     margin-left: 0;
                     margin-right: 0;
+                }
+            }
+
+            @media screen and (max-width: 550px)
+            {
+                .logo h1 {
+                    display: none;
                 }
             }
 
