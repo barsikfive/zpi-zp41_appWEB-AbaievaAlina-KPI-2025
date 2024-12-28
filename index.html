@@ -37,13 +37,14 @@
                 color: #D8DDD3;
             }
 
+            
             header {
                 width: 100%;
                 height: fit-content;
-
+                
                 background-color: #181A21;
             }
-
+            
             header section {
                 margin: 0 auto;
                 display: flex;
@@ -55,7 +56,7 @@
                 justify-content: center;
                 align-items: center;
             }
-
+            
             div.logo {
                 display: flex;
                 height: 100px;
@@ -63,20 +64,24 @@
                 justify-content: center;
                 align-items: center;
             }
-
+            
             .logo img {
                 width: 100px;
                 height: 100px;
             }
-
+            
             .logo h1 {
                 margin-left: 10px;
                 width: fit-content;
                 word-break: keep-all;
-
+                
                 font-family: "Koulen";
                 font-size: 64pt;
                 color: #C5C3C1;
+            }
+            
+            [class~="logo"] {
+                filter: drop-shadow(1px -3px 3px #E79A3F);
             }
 
             header nav {
@@ -114,7 +119,6 @@
             header nav a:hover {
                 color: #fff;
             }
-
             
             .activepage {
                 color: #539BFB;
