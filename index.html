@@ -3,15 +3,19 @@
     <head>
         <title>HONEY BADGER - Крамниця</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Manrope&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch&family=Rubik+Iso&display=swap" rel="stylesheet">
         <style type="text/css" media="screen">
-            @font-face {
-                font-family: "Motiva Sans";
-                src: url('fonts/MotivaSans-Regular.otf') format("opentype");
+            .rubik-glitch-regular {
+            font-family: "Rubik Glitch", serif;
+            font-weight: 400;
+            font-style: normal;
             }
 
             @font-face {
-                font-family: "Manrope";
-                src: url('fonts/Manrope-Regular.ttf') format("truetype");
+                font-family: "Motiva Sans";
+                src: url('fonts/MotivaSans-Regular.otf') format("opentype");
             }
 
             @font-face {
@@ -387,10 +391,11 @@
 
             input.submitbutton {
                 width: fit-content;
-                height:fit-content;
+                height: fit-content;
                 background-color: #1E2737;
-                color: #fff;
                 border-color: #205DA533;
+                font-family: "Rubik Glitch";
+                color: #fff;
             }
 
             input.submitbutton:hover, input.submitbutton:focus {
@@ -554,7 +559,7 @@
                         </tbody>
                         <tfoot>
                             <tr>
-                                <th colspan="2"><input class="submitbutton" type="submit" value="Підписатись на новини" /></td>
+                                <th colspan="2"><input class="submitbutton" type="submit" value="Підписатись" /></td>
                             </tr>
                         </tfoot>
                     </table>
